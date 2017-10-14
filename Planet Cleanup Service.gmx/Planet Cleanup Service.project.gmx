@@ -9,6 +9,12 @@
     <sprite>sprites\spr_FantasyDirt</sprite>
     <sprite>sprites\spr_FantasyDirtWithGrass</sprite>
     <sprite>sprites\spr_FantasyRocks</sprite>
+    <sprite>sprites\spr_Goblin</sprite>
+    <sprite>sprites\spr_Leprachaun</sprite>
+    <sprite>sprites\spr_Minon_Dragon</sprite>
+    <sprite>sprites\spr_Orc</sprite>
+    <sprite>sprites\spr_Sir_Goreney_Weever</sprite>
+    <sprite>sprites\spr_Unicorn_Knight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_sky</background>
