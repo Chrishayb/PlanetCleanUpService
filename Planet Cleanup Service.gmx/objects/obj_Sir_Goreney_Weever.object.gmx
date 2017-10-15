@@ -158,7 +158,7 @@ else
    grounded = false
    }
 
-    if(grounded == true)
+    if(grounded == true /*&amp;&amp; place_meeting(x + 100, y , obj_Player)*/)
     {
 
     //Movement 
