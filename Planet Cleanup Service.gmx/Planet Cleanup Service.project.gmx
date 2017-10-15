@@ -9,18 +9,41 @@
     <sprite>sprites\spr_FantasyDirt</sprite>
     <sprite>sprites\spr_FantasyDirtWithGrass</sprite>
     <sprite>sprites\spr_FantasyRocks</sprite>
-    <sprite>sprites\spr_Goblin</sprite>
-    <sprite>sprites\spr_Leprachaun</sprite>
-    <sprite>sprites\spr_Minon_Dragon</sprite>
-    <sprite>sprites\spr_Orc</sprite>
-    <sprite>sprites\spr_Sir_Goreney_Weever</sprite>
-    <sprite>sprites\spr_Unicorn_Knight</sprite>
+    <sprites name="Goblin">
+      <sprite>sprites\spr_Goblin_Walking</sprite>
+      <sprite>sprites\spr_Goblin_Attacking</sprite>
+    </sprites>
+    <sprites name="Leprachaun">
+      <sprite>sprites\spr_Leprachaun_Attacking</sprite>
+    </sprites>
+    <sprites name="Orc">
+      <sprite>sprites\spr_Orc_Walking</sprite>
+      <sprite>sprites\spr_Orc_Attacking</sprite>
+    </sprites>
+    <sprites name="Unicorn Knight">
+      <sprite>sprites\spr_Unicorn_Knight_Attacking</sprite>
+      <sprite>sprites\spr_Unicorn_Knight_Walking</sprite>
+    </sprites>
+    <sprites name="Minon Dragon">
+      <sprite>sprites\spr_Minon_Dragon</sprite>
+    </sprites>
+    <sprites name="Sir Goreney Weever">
+      <sprite>sprites\spr_Sir_Goreney_Weever_Walking</sprite>
+      <sprite>sprites\spr_Sir_Goreney_Weever_Fire_Attack</sprite>
+      <sprite>sprites\spr_Sir_Goreney_Weever_Sword_Attack</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_sky</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_Goblin</object>
+    <object>objects\obj_Orc</object>
+    <object>objects\obj_Unicorn_Knight</object>
+    <object>objects\obj_Leprachaun</object>
+    <object>objects\obj_Minon_Dragon</object>
+    <object>objects\obj_Sir_Goreney_Weever</object>
     <object>objects\obj_dirt</object>
     <object>objects\obj_dirtwithgrass</object>
     <object>objects\obj_rocks</object>
